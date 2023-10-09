@@ -59,7 +59,7 @@ function calcularEjemploPractico() {
     resultado = "Puedes conducir un automóvil.";
   } else if (edad >= 16 && tienePermisoDeConducir) {
     resultado = "Puedes conducir un automóvil.";
-  } else if (edad >= 18 || edad >= 16 && tienePermisoDeConducir) {
+  } else if (edad >= 18 || edad >= 16 ) {
     resultado = "Puedes conducir una moto.";
   } else if (edad < 15 || !tienePermisoDeConducir ){
     resultado = "No puedes conducir.";
